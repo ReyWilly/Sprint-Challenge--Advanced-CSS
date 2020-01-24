@@ -58,6 +58,14 @@
       }
 
       .btn {
+        padding: 5% 15%;
+        width: 60%;
+        background-color: @ebony-clay;
+        border-radius: 10px;
+        color:white;
+        font-size: 2rem;
+        .displayFlex();
+
       }
     }
 
@@ -69,6 +77,35 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+  }
+
+  @media @mobile{
+    .space-images{
+      .displayFlex();
+      border: 1px solid black;
+      #pic1{
+        width:80%;
+      }
+    }
+    #pic2{
+      display: none;
+    }
+    .walk{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0% 3%;
+      .walk-text{
+        width:100%;
+        .btn{
+          width:100%;
+        }
+      }
+      .walk-img{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 1%;
       }
     }
   }
