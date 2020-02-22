@@ -218,9 +218,9 @@ footer {
 }
 .home .space-images img {
   width: 28%;
+  height: 100%;
   margin: 20px 2.5%;
   border-radius: 20px;
-  height: 100%;
 }
 .home .visit-planets {
   padding: 15px;
@@ -248,6 +248,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
+  margin: 10% auto;
   padding: 5% 15%;
   width: 60%;
   background-color: #23293B;
@@ -257,6 +258,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .walk .walk-text .btn:hover {
+  box-shadow: 0px 0px 10px black;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -272,7 +276,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 0px solid black;
   }
   .home .space-images #pic1 {
     width: 80%;
